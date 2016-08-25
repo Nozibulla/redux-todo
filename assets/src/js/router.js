@@ -1,14 +1,8 @@
-import React, { Component } from 'react';
-
-class Router extends Component {
-  constructor(props) {
-    super(props);
-  }
+import React from 'react';
+export default class CommentBox extends React.Component {
   render() {
-    return (<div>
-      Yo!
-    </div>);
+    return (
+      <h2>Working! :)</h2>
+    );
   }
 }
-
-export default Router;
