@@ -30,13 +30,13 @@ const todo = (state = {}, action) => {
       return state;
   }
 };
-let todos;
-request
-  .get('http://localhost:8000/todo-list')
-  .end((err, res) => {
-    if (err) throw err;
-    todos = res.text;
-  });
+// let todos;
+// request
+//   .get('http://localhost:8000/todo-list')
+//   .end((err, res) => {
+//     if (err) throw err;
+//     todos = res.text;
+//   });
 // const todos = [
 // { id: 0, completed: false, text: 'Yoo' },
 // { id: 1, completed: false, text: 'make Yoo' },
